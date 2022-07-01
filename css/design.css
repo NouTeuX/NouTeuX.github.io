@@ -1,0 +1,163 @@
+html {
+    background: black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+body {
+    margin: 0;
+    padding: 0;
+}
+.navGrid > div {
+    background-color: aliceblue;
+    
+    background-color: black;
+}
+.navGrid {
+    display: grid;
+    grid-template-columns: 30% 40% 30%;
+    height: 120px;
+    margin-top: 5%;
+}
+.designNavBtn {
+    color: #F1F1F1;
+    background-color: transparent;
+    border: 2px solid #222222;
+    border-radius: 5px;
+    height: 70%;
+    width: 80%;
+    font-size: 15px;
+    letter-spacing:4px;
+}
+.seriesBtnDiv {
+    display: flex;
+    justify-content: center;
+    height: 100%;
+    align-items: center;
+}
+.moviesBtnDiv {
+    display: flex;
+    justify-content: center;
+    height: 100%;
+    align-items: center;
+}
+.navButton {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    background-color: black;
+}
+
+.emptyDivLeftFull{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.emptyDivRight{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.emptyDivLeftTop{
+    border-bottom: #222222 1px solid;
+    height: 24%;
+}
+.emptyDivLeftBot{
+    border-top: #222222 1px solid;
+    height: 24%;
+}
+.emptyDivRightTop{
+    border-bottom: #222222 1px solid;
+    height: 24%;
+}
+.emptyDivRightBot{
+    border-top: #222222 1px solid;
+    height: 24%;
+}
+
+
+.subOptionGrid > div {
+    background-color: #222222;
+    border: 1px solid gray;
+    border-radius: 5px;
+    color: #F1F1F1;
+    text-align: center;
+}
+.subOptionGrid {
+    display: grid;
+    display: flex;
+    grid-template-columns: 30% 30% 30%;
+    column-gap: 2%;
+    justify-content: center;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: solid 1px rgba(219, 32, 44, .3);
+}
+.logo {
+    font-size: 30px;
+    margin-left: 5%;
+    letter-spacing: 1px;
+    color: #db202c;
+    font-weight: bold;
+}
+.loginButtonDiv {
+    background-color: #db202c;
+    border-radius: 5px;
+    color: #F1F1F1;
+    font-size: 10px;
+    letter-spacing: 1px;
+    text-align: center;
+    height: 30%;
+    margin-top: 50%;
+    border: transparent;
+    width: 100%;
+}
+.loginBtnDiv {
+    margin-right: 2%;   
+}
+.imgBackground{
+    border:1px solid #222222;
+    height: 250px;
+    width: 100%;
+    margin-top: 5%;
+    background: url(../img/ironMmodif.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #F1F1F1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:center;
+}
+.textAdds {
+    font-size: 22px;
+    letter-spacing: 2px;
+    margin-left: 7%;
+    margin-top: 15%;
+}
+.textPriceAds {
+    text-align: center;
+    font-size: 25px;
+}
+.optionTitle {
+    color: #F1F1F1;
+    text-align: center;
+    font-size: 20px;
+    letter-spacing: 2px;
+    word-spacing: 10px;
+    border-bottom: rgba(219, 32, 44, .3) 1px solid;
+}
+
+.standardOption , .preniumOption , .yearsOption {
+    display: flex;
+    flex-direction: column;
+    font-size: 17px;
+}
+.subBtn {
+    background-color: #db202c;
+    color: #F1F1F1;
+    border: #db202c 1px solid;
+    border-radius: 3px;
+    margin-bottom: 10%;
+    font-weight: bold;
+}
