@@ -1,7 +1,9 @@
 html {
     background: black;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'Exo', sans-serif;
+    font-family: 'Montserrat', sans-serif;
 }
+
 body {
     margin: 0;
     padding: 0;
@@ -96,8 +98,10 @@ header {
 }
 .logo {
     font-size: 30px;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Oswald', sans-serif;
     margin-left: 5%;
-    letter-spacing: 1px;
+    letter-spacing: 2px;
     color: #db202c;
     font-weight: bold;
 }
@@ -131,7 +135,7 @@ header {
     justify-content:center;
 }
 .textAdds {
-    font-size: 22px;
+    font-size: 20px;
     letter-spacing: 2px;
     margin-left: 7%;
     margin-top: 15%;
@@ -152,7 +156,7 @@ header {
 .standardOption , .preniumOption , .yearsOption {
     display: flex;
     flex-direction: column;
-    font-size: 17px;
+    font-size: 15px;
 }
 .subBtn {
     background-color: #db202c;
